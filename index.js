@@ -31,4 +31,5 @@ function generateReadMe() {
     fs.writeFileSync('README.md', output);
   });
 }
+// console.log(DATA.name, DATA.date)
 generateReadMe();
