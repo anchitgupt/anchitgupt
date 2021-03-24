@@ -8,7 +8,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
   * Notice the "name" and "date" property.
 */
 let DATA = {
-  name: 'Thomas',
+  name: 'Anchit Gupta',
   date: new Date().toLocaleDateString('en-IN', {
     weekday: 'long',
     month: 'long',
@@ -16,7 +16,7 @@ let DATA = {
     hour: 'numeric',
     minute: 'numeric',
     timeZoneName: 'short',
-    timeZone: 'India/Delhi',
+    timeZone: 'Asia/Kolkata',
   }),
 };
 /**
