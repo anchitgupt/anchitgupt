@@ -1,9 +1,10 @@
 // index.js
 
+require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
-
+const fetch = require('node-fetch');
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 /**
@@ -23,6 +24,34 @@ let DATA = {
     timeZone: 'Asia/Kolkata',
   }),
 };
+
+// 
+// Weather Information
+// 
+
+async function setWeatherInformation() {
+  await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?q=moradabad&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
+  )
+    .then(r => r.json())
+    .then(r => {
+      DATA.city_temperature = Math.round(r.main.temp);
+      DATA.city_weather = r.weather[0].description;
+      DATA.city_weather_icon = r.weather[0].icon;
+      DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-IN', {
+        hour: '2-digit',
+        minute: '2-digit',
+        timeZone: 'Asia/Kolkata',
+      });
+      DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-IN', {
+        hour: '2-digit',
+        minute: '2-digit',
+        timeZone: 'Asia/Kolkata',
+      });
+    });
+}
+
+
 
 /**
 * Function to get the Latest Instagram Posts from the Account.   
@@ -52,7 +81,7 @@ async function action() {
   /**
    * Fetch Weather
    */
-  // await setWeatherInformation();
+  await setWeatherInformation();
 
   /**
    * Get pictures
@@ -68,6 +97,8 @@ async function action() {
    * Fermeture de la boutique 👋
    */
   await puppeteerService.close();
+
+  console.log(DATA)
 }
 
 action();

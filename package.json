@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/anchitgupt/anchitgupt#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "mustache": "^4.1.0",
+    "node-fecth": "^0.0.1-security",
     "puppeteer": "^8.0.0"
   }
 }
