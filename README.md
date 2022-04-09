@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Welcome, My name is Anchit Gupta. Machine Learning and App Development Enthusiast currently doing my PostGrad from [IIIT Delhi](https://www.iiitd.ac.in/) and my focus area of major projects are Natural Language Processing and Graph Mining.
+Welcome, My name is Anchit Gupta. Data Engineering, Machine Learning and App Development Enthusiast currently doing working as an Analyst in Axtria Pvt. Ltd. I have done my PostGrad from [IIIT Delhi](https://www.iiitd.ac.in/) and my focus area of major projects are Natural Language Processing and Graph Mining.
 <!-- **anchitgupt/anchitgupt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
 Here are some ideas to get you started:
