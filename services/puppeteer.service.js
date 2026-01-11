@@ -69,7 +69,7 @@ class PuppeteerService {
       return nodes.slice(0, 3);
     } catch (error) {
       console.log('Error', error);
-      process.exit();
+      process.exit(1);
     }
   }
 

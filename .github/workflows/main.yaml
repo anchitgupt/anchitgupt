@@ -3,37 +3,39 @@ name: README build
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 */6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout current repository to Master branch
-        uses: actions/checkout@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          ref: main
-      - name: Setup NodeJs 12.13.x
-        uses: actions/setup-node@v1
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '12.13.x'
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+          node-version: '18'
+          cache: 'npm'
+
       - name: Install dependencies
         run: npm install
+
       - name: Generate README file
         run: node index.js
         env:
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
+
       - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' 
-          
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "update: README.md [skip ci]"
+          branch: main
+          file_pattern: README.md
