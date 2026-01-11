@@ -57,11 +57,36 @@ async function setWeatherInformation() {
 * Function to get the Latest Instagram Posts from the Account.   
 *
 */
+const mediumService = require('./services/medium.service');
+
+// ... (existing imports)
+
+// ... (DATA definition - no change, but we will add Logic)
+
+// ...
+
+/**
+* Function to get the Latest Instagram Posts from the Account.   
+*
+*/
 async function setInstagramPosts() {
   const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('incredibleindia', 3);
-  DATA.img1 = instagramImages[0];
-  DATA.img2 = instagramImages[1];
-  DATA.img3 = instagramImages[2];
+
+  // Fallback images if scraping fails
+  const fallbackImages = [
+    'https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
+    'https://images.unsplash.com/photo-1561585446-7dd38f4f6a8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
+    'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80'
+  ];
+
+  DATA.img1 = instagramImages[0] || fallbackImages[0];
+  DATA.img2 = instagramImages[1] || fallbackImages[1];
+  DATA.img3 = instagramImages[2] || fallbackImages[2];
+}
+
+async function setMediumPosts() {
+  const posts = await mediumService.getLatestPosts();
+  DATA.posts = posts;
 }
 
 
@@ -70,7 +95,7 @@ async function setInstagramPosts() {
 */
 
 async function generateReadMe() {
-  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
+  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync('README.md', output);
@@ -87,6 +112,11 @@ async function action() {
    * Get pictures
    */
   await setInstagramPosts();
+
+  /**
+   * Get Blog Posts
+   */
+  await setMediumPosts();
 
   /**
    * Generate README
