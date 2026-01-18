@@ -70,7 +70,7 @@ const mediumService = require('./services/medium.service');
 *
 */
 async function setInstagramPosts() {
-  const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('incredibleindia', 3);
+  const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('anchitgupt', 3);
 
   // Fallback images if scraping fails
   const fallbackImages = [
