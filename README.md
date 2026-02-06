@@ -34,9 +34,9 @@ Machine Learning and App Development Enthusiast currently doing my PostGrad from
 <p>Above are the last 3 pictures posted by <a href="https://www.instagram.com/incredibleindia/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @incredibleindia!</a><br/>
 
 ### 🌦️ Current Weather
-<b> 17°C, <i>clear sky</i></b></br>Today, the sun rises at <b>07:00 am</b> and sets at <b>05:57 pm</b>.</p>
+<b> 12°C, <i>clear sky</i></b></br>Today, the sun rises at <b>06:59 am</b> and sets at <b>05:58 pm</b>.</p>
 
 ---
-Updated at: Friday 6 February at 6:10 pm IST
+Updated at: Saturday 7 February at 12:07 am IST
 
 Creator: [Thomas Guibert](https://github.com/thmsgbrt)
