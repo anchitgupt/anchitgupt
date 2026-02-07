@@ -15,9 +15,9 @@ Machine Learning and App Development Enthusiast currently doing my PostGrad from
 
 
 ### 📚 Recent Blog Posts
+- [Best SQL Hacks I Wouldn’t Have Believed If I Hadn’t Used Them Myself](https://medium.com/@anchitgupt2012/best-sql-hacks-i-wouldnt-have-believed-if-i-hadn-t-used-them-myself-2511e18f15a1?source=rss-3b9cbb336cca------2) - *7 Feb 2026*
+- [The Expert Way to Decide the Data Model for Any Data Engineering Problem](https://medium.com/@anchitgupt2012/the-expert-way-to-decide-the-data-model-for-any-data-engineering-problem-5ff383ba8bca?source=rss-3b9cbb336cca------2) - *7 Feb 2026*
 - [What’s New in Apache Spark 4.1 for Developers?](https://medium.com/@anchitgupt2012/whats-new-in-apache-spark-4-1-for-developers-9b7938a6f3f4?source=rss-3b9cbb336cca------2) - *11 Jan 2026*
-- [How Pro handles Un-Strucutred Data in Databricks Atleast](https://medium.com/@anchitgupt2012/how-pro-handles-un-strucutred-data-in-databricks-atleast-42ba983ac7f2?source=rss-3b9cbb336cca------2) - *8 Jan 2026*
-- [Breaking Into Data Engineering: The Complete Roadmap for 2026](https://medium.com/@anchitgupt2012/breaking-into-data-engineering-the-complete-roadmap-for-2026-7eb5084c1184?source=rss-3b9cbb336cca------2) - *4 Jan 2026*
 
 ### 📊 GitHub Stats
 <p align="left">
@@ -34,9 +34,9 @@ Machine Learning and App Development Enthusiast currently doing my PostGrad from
 <p>Above are the last 3 pictures posted by <a href="https://www.instagram.com/incredibleindia/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @incredibleindia!</a><br/>
 
 ### 🌦️ Current Weather
-<b> 23°C, <i>clear sky</i></b></br>Today, the sun rises at <b>06:59 am</b> and sets at <b>05:58 pm</b>.</p>
+<b> 19°C, <i>clear sky</i></b></br>Today, the sun rises at <b>06:59 am</b> and sets at <b>05:58 pm</b>.</p>
 
 ---
-Updated at: Saturday 7 February at 12:02 pm IST
+Updated at: Saturday 7 February at 6:00 pm IST
 
 Creator: [Thomas Guibert](https://github.com/thmsgbrt)
