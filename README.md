@@ -15,9 +15,9 @@ Machine Learning and App Development Enthusiast currently doing my PostGrad from
 
 
 ### 📚 Recent Blog Posts
+- [SCD Type 2 in Streaming Pipelines — Why Everything You Know About Batch SCD2 Breaks at the Stream](https://medium.com/area-21/scd-type-2-in-streaming-pipelines-why-everything-you-know-about-batch-scd2-breaks-at-the-stream-2c12085c7b6f?source=rss-3b9cbb336cca------2) - *19 Mar 2026*
 - [Choosing the Right Dimension for Your Medallion Table — A Practical Guide to SCDs](https://medium.com/area-21/choosing-the-right-dimension-for-your-medallion-table-a-practical-guide-to-scds-e57e2303a990?source=rss-3b9cbb336cca------2) - *18 Mar 2026*
 - [Best SQL Hacks I Wouldn’t Have Believed If I Hadn’t Used Them Myself](https://medium.com/@anchitgupt2012/best-sql-hacks-i-wouldnt-have-believed-if-i-hadn-t-used-them-myself-2511e18f15a1?source=rss-3b9cbb336cca------2) - *7 Feb 2026*
-- [The Expert Way to Decide the Data Model for Any Data Engineering Problem](https://medium.com/@anchitgupt2012/the-expert-way-to-decide-the-data-model-for-any-data-engineering-problem-5ff383ba8bca?source=rss-3b9cbb336cca------2) - *7 Feb 2026*
 
 ### 📊 GitHub Stats
 <p align="left">
@@ -34,9 +34,9 @@ Machine Learning and App Development Enthusiast currently doing my PostGrad from
 <p>Above are the last 3 pictures posted by <a href="https://www.instagram.com/incredibleindia/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @incredibleindia!</a><br/>
 
 ### 🌦️ Current Weather
-<b> 31°C, <i>overcast clouds</i></b></br>Today, the sun rises at <b>06:20 am</b> and sets at <b>06:25 pm</b>.</p>
+<b> 25°C, <i>overcast clouds</i></b></br>Today, the sun rises at <b>06:20 am</b> and sets at <b>06:25 pm</b>.</p>
 
 ---
-Updated at: Thursday 19 March at 12:18 pm IST
+Updated at: Thursday 19 March at 6:12 pm IST
 
 Creator: [Thomas Guibert](https://github.com/thmsgbrt)
