@@ -1,7 +1,7 @@
 {
   "name": "anchitgupt",
   "version": "1.0.0",
-  "description": "<!-- **anchitgupt/anchitgupt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "description": "Auto-updating GitHub profile README with weather, blog posts, and Instagram photos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
