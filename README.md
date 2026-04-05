@@ -6,7 +6,7 @@
 <br/>
 
 [![Website](https://img.shields.io/badge/anchitgupt.github.io-0A0A0A?style=for-the-badge&logo=google-chrome&logoColor=00E7C0)](https://anchitgupt.github.io)
-[![Medium](https://img.shields.io/badge/Medium-0A0A0A?style=for-the-badge&logo=medium&logoColor=00E7C0)](https://medium.com/@anchitgupt2012)
+[![Medium](https://img.shields.io/badge/Medium-0A0A0A?style=for-the-badge&logo=medium&logoColor=00E7C0)](https://medium.com/@anchitgupt)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=00E7C0)](https://www.linkedin.com/in/anchitgupt/)
 [![Twitter](https://img.shields.io/badge/Twitter-0A0A0A?style=for-the-badge&logo=x&logoColor=00E7C0)](https://twitter.com/Anchit_Gupt)
 [![Instagram](https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=00E7C0)](https://www.instagram.com/anchitgupt/)
