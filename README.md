@@ -6,7 +6,7 @@
 <br/>
 
 [![Website](https://img.shields.io/badge/anchitgupt.github.io-0A0A0A?style=for-the-badge&logo=google-chrome&logoColor=00E7C0)](https://anchitgupt.github.io)
-[![Medium](https://img.shields.io/badge/Medium-0A0A0A?style=for-the-badge&logo=medium&logoColor=00E7C0)](https://medium.com/@anchitgupt)
+[![Medium](https://img.shields.io/badge/Medium-0A0A0A?style=for-the-badge&logo=medium&logoColor=00E7C0)](https://medium.com/@anchitgupt2012)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=00E7C0)](https://www.linkedin.com/in/anchitgupt/)
 [![Twitter](https://img.shields.io/badge/Twitter-0A0A0A?style=for-the-badge&logo=x&logoColor=00E7C0)](https://twitter.com/Anchit_Gupt)
 [![Instagram](https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=00E7C0)](https://www.instagram.com/anchitgupt/)
@@ -105,9 +105,9 @@
 ---
 
 <div align="center">
-  <sub><code>22°C &bull; overcast clouds &bull; Moradabad</code></sub>
+  <sub><code>26°C &bull; overcast clouds &bull; Moradabad</code></sub>
   <br/>
-  <sub>Last updated: <code>Saturday, 4 April at 11:59 pm IST</code></sub>
+  <sub>Last updated: <code>Sunday, 5 April at 6:08 pm IST</code></sub>
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=anchitgupt&color=00E7C0&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
 </div>
