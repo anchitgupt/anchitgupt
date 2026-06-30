@@ -105,9 +105,9 @@
 ---
 
 <div align="center">
-  <sub><code>36°C &bull; heavy intensity rain &bull; Moradabad</code></sub>
+  <sub><code>42°C &bull; overcast clouds &bull; Moradabad</code></sub>
   <br/>
-  <sub>Last updated: <code>Tuesday, 30 June at 8:06 am IST</code></sub>
+  <sub>Last updated: <code>Tuesday, 30 June at 2:28 pm IST</code></sub>
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=anchitgupt&color=00E7C0&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
 </div>
