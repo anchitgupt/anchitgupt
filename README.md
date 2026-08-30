@@ -105,9 +105,9 @@
 ---
 
 <div align="center">
-  <sub><code>34°C &bull; overcast clouds &bull; Moradabad</code></sub>
+  <sub><code>27°C &bull; broken clouds &bull; Moradabad</code></sub>
   <br/>
-  <sub>Last updated: <code>Sunday, 30 August at 4:27 pm IST</code></sub>
+  <sub>Last updated: <code>Sunday, 30 August at 9:16 pm IST</code></sub>
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=anchitgupt&color=00E7C0&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
 </div>
