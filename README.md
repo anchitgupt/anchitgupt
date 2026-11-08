@@ -105,9 +105,9 @@
 ---
 
 <div align="center">
-  <sub><code>19°C &bull; clear sky &bull; Moradabad</code></sub>
+  <sub><code>24°C &bull; clear sky &bull; Moradabad</code></sub>
   <br/>
-  <sub>Last updated: <code>Sunday, 8 November at 2:45 am IST</code></sub>
+  <sub>Last updated: <code>Sunday, 8 November at 9:06 am IST</code></sub>
   <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=anchitgupt&color=00E7C0&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
 </div>
